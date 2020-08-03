@@ -1,0 +1,30 @@
+{
+  "name": "@m7moudredafouad/create-project",
+  "version": "1.1.2",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "@m7moudredafouad/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "m7moudredafouad",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "execa": "^4.0.3",
+    "listr": "^0.14.3"
+  }
+}
