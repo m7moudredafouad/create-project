@@ -1,6 +1,12 @@
 module.exports = `{
-    "extends": "google",
-    "rules": {
-      // Additional, per-project rules...
+  "extends": "google",
+  "rules": {
+    "linebreak-style": "off",
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "es6": true
     }
+  }
 }`;

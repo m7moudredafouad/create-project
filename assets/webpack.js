@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const webpack = `const path = require('path');
 const CleanPlugin = require('clean-webpack-plugin')
 
@@ -9,7 +8,7 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'scripts', 'build'),
-        publicPath: './scripts/build/'
+        publicPath: 'scripts/build/'
     },
     module: {
         rules: [

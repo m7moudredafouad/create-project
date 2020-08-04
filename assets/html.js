@@ -1,5 +1,4 @@
-const html = `
-<!DOCTYPE html>
+const html = `<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -13,8 +12,7 @@ const html = `
     </head>
     <body>
     </body>
-</html>
-`;
+</html>`;
 
 // eslint-disable-next-line no-undef
 module.exports = html;

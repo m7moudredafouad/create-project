@@ -5,7 +5,7 @@ module.exports = `{
     "main": "scripts/build/bundle.js",
     "scripts": {
         "build": "webpack",
-        "build:dev": "webpack-dev-server",
+        "build:dev": "webpack-dev-server --progress --inline",
         "build:prod": "webpack --config webpack.config.prod.js",
         "compile:sass": "node-sass sass/main.scss css/style.css -w",
         "build:sass": "node-sass sass/main.scss css/style.css --output-style compressed"

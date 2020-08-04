@@ -10,7 +10,9 @@ const eslint = require('../assets/eslint')
 
 
 const folderNames = [
-    ['css'],
+    ['css', [
+        ['text:style.css', '']
+    ]],
     ['sass', [
         ['component'],
         ['abstracts'],
@@ -28,7 +30,9 @@ const folderNames = [
         ['src', [
             ['text:app.js', '']
         ]],
-        ['build']
+        ['build', [
+            ['text:bundle.js', '']
+        ]]
     ]],
     ['text:index.html', html],
     ['text:webpack.config.js', webPack],
